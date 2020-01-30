@@ -9,9 +9,9 @@ import Page6 from '../pages/page6/index'
 const Routes = () => (
     <BrowserRouter>
         <Switch>
-            <Route exact path="/page8" component={Page8} />
-            <Route exact path="/page7" component={Page7} />
-            <Route exact path="/page6" component={Page6} />
+            <Route exact path="/historic" component={Page8} />
+            <Route exact path="/search_login" component={Page7} />
+            <Route exact path="/search_nologin" component={Page6} />
         </Switch>
     </BrowserRouter>
 )

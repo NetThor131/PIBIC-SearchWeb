@@ -1,12 +1,13 @@
 import React from 'react'
 
-import MenuSystem from '../../components/MenuSystem/index'
-import MenuLogin from '../../components/MenuLogin'
+import MenuLogin from '../../components/MenuLogin/index'
+import SearchBar from '../../components/SearchBar'
 
 const Page6 = () => {
     return (
         <>
             <MenuLogin/>
+            <SearchBar/>
         </>
     )
 }
