@@ -1,6 +1,6 @@
 import React from 'react';
 import Routes from './routes/index.js'
-import background from './assets/imgs/background.png'
+//import background from './assets/imgs/background.png'
 
 import { GlobalStyle } from './styles/global.js';
 import { Container } from './styles/pagecontainer'
@@ -8,7 +8,7 @@ import { Container } from './styles/pagecontainer'
 
 const App = () => {
   return (
-    <Container background={background}>
+    <Container>
       <GlobalStyle/>
       <Routes/>
     </Container>

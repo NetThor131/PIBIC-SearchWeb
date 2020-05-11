@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+html, body, #root {
+    min-height: 100%;
+}
+
+body {
+    background-size: cover;
+}
+
+body, textarea, select, button {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+
+.container {
+    margin: 80px auto 0;
+    max-width: 450px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.content {
+    width: 100%;
+    background: #fff;
+    margin-top: 50px;
+    border-radius: 4px;
+    padding: 30px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form select {
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 2px;
+    height: 30px;
+    padding: 0 15px;
+    font-size: 16px;
+}
+
+.form textarea {
+    resize: none;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 2px;
+    height: 300px;
+    width: 500px;
+    padding: 0 15px;
+    font-size: 16px;
+}
+
+.form button {
+    border: 0;
+    border-radius: 2px;
+    width: 20%;
+    height: 42px;
+    padding: 0 20px;
+    font-size: 16px;
+    font-weight: bold;
+    color: black;
+    background: gray;
+    cursor: pointer;
+}
+
+.form-group {
+    display: flex;
+}
